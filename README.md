@@ -5,4 +5,4 @@ This repo is substantially based on MATLAB code from my supervisors Dr. Elizabet
 
 Create and activate a virtual environment (eg: https://code.visualstudio.com/docs/python/environments) then run `pip install -r requirements.txt` in the terminal.
 
-You can run and plot the NLLS and NN estimates from NLLS_plots.py and NN_plots.py respectively. (Run NLLS and NN to not display them.)
+You can run and plot the NLLS and NN estimates from NLLS_plots.py and NN_plots.py respectively. (Run NLLS.py and NN.py to hide the plots.)
