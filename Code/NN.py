@@ -1,20 +1,11 @@
 import time
 import numpy as np
 import matplotlib.pyplot as plt
-import nibabel as nib
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as utils
 from tqdm import tqdm
-from scipy.special import erf
-import scipy.stats
-
-from dmipy.core.acquisition_scheme import acquisition_scheme_from_bvalues
-from dmipy.core.modeling_framework import MultiCompartmentSphericalMeanModel
-from dmipy.signal_models import sphere_models, cylinder_models, gaussian_models
-
-from scipy.io import savemat
 from Simulations import *
 
 torch.autograd.set_detect_anomaly(True)

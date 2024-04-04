@@ -1,17 +1,11 @@
 from itertools import product
 import matplotlib.pyplot as plt
-import nibabel as nib
 import numpy as np
 import scipy.stats
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data as utils
-from dmipy.core.acquisition_scheme import acquisition_scheme_from_bvalues
-from dmipy.core.modeling_framework import MultiCompartmentSphericalMeanModel
-from dmipy.signal_models import cylinder_models, gaussian_models, sphere_models
-from scipy.io import savemat
-from scipy.special import erf
 from tqdm import tqdm
 
 # Seed for random number generator
